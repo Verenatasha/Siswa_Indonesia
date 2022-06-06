@@ -1,0 +1,173 @@
+@font-face {
+	font-family: 'Oleo Script';
+	src: url('../font/Oleo_Script/OleoScript-Regular.ttf');
+}
+@font-face {
+	font-family: 'Lexend Deca';
+	src: url('../font/Lexend_Deca/static/LexendDeca-Regular.ttf');
+}
+* {
+	box-sizing: border-box;
+	font-family: 'Lexend Deca', sans-serif;
+}
+body {
+	background-color: #eeeeee;
+}
+/************index************/
+h1 {
+	font-family: 'Oleo Script', cursive;
+}
+/************login************/
+#welcome-text {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+/************mix************/
+.bi-person-circle, .bi-house-fill, .bi-box-arrow-right {
+	font-size: 35px;
+	margin: 20px;
+	color: #da1212;
+	position: fixed;
+	border: none;
+	z-index: 1;
+	background: none;
+}
+.bi-plus-circle {
+	font-size: 35px;
+	color: #da1212;
+}
+#home-admin, #logout-admin {
+	top: 20px;
+}
+.bi-person-circle:hover, .bi-house-fill:hover, .bi-box-arrow-right:hover, .bi-arrow-left-circle-fill:hover, .bi-plus-circle-fill:hover, .bi-plus-circle:hover {
+	color: #8e0000;
+}
+#button-start {
+	font-size: 17px;
+	margin-top: 40px;
+	width: 120px;
+	background-color: #da1212;
+	border: none;
+	border-radius: 100px;
+}
+#button-start:hover {
+	background-color: #8e0000;
+	border: none;
+}
+.bi-arrow-left-circle-fill, .bi-plus-circle-fill {
+	font-size: 50px;
+	margin: 20px;
+	color: #da1212;
+	position: sticky;
+}
+.bi-arrow-left-circle-fill {
+	bottom: 48px;
+}
+.bi-plus-circle-fill {
+	bottom: 111px;
+}
+.bi-chevron-left, .bi-chevron-right {
+	color: #da1212;
+	font-size: 35px;
+}
+.card-title {
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button-group a {
+	width: 80px;
+}
+footer {
+	background-color: black;
+	color: white;
+	height: 90px;
+	padding: 35px;
+	bottom: 0;
+	width: 100%;
+}
+#left-bar {
+	position: fixed;
+	left: 0;
+	padding: 0;
+}
+#content-fill {
+	position: absolute;
+	right: 0;
+	padding: 0;
+}
+/*.accordion-item {
+	background-color: pink;
+}
+#accordion-button {
+	background-color: yellow;
+}*/
+/************content************/
+.carousel {
+	background-color: #11468f;
+	color: #fff;
+}
+.img-md-content {
+	width: 60%;
+}
+p {
+	text-align: justify;
+}
+.float-start {
+	width: 75%;
+}
+.float-end {
+	width: 25%;
+}
+aside img {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+.content {
+	font-size: 80%;
+}
+/************mapel-admin************/
+.class {
+	width: 200px;
+}
+/************edit************/
+.edit {
+	width: 100px;
+}
+/************kuis************/
+
+/************small************/
+@media (max-width: 767px) {
+	.img-sm-content {
+		width: 75%;
+	}
+}
+/************large************/
+@media (max-width: 1199px) {
+	.action-button {
+  		display: block;
+  		margin: 2px;
+  	}
+}
+/************extra small************/
+@media (max-width: 575px) {
+  	.col-xs-12 {
+	    flex: 0 0 auto;
+	    width: 100%;
+	    padding: 0 2rem;
+  	}
+  	.display-xs {
+  		display: none;
+  	}
+  	.float-start {
+  		width: 100%;
+  	}
+  	.float-end {
+  		width: 100%;
+  	}
+  	
+}

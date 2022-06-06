@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="in">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Siswa Indonesia | Pancasila</title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="font/bootstrap-icons.css">
+	</head>
+	<body>
+		<header class="container-fluid">
+			<div class="row">
+				<div class="offset-1 col-10 text-center mt-5 mb-3">
+					<h2>
+						Pancasila
+					</h2>
+				</div>				
+				<div class="col-1 d-flex justify-content-end" id="home-admin">
+					<a href="index.html" class="bi bi-house-fill"></a>
+				</div>
+			</div>
+		</header>
+		<main class="container-fluid">
+			<div class="row">
+				<article class="col col-md-8 col-sm-12">
+					<div class="text-center">
+						<h3 class="mb-3">Judul</h3>
+						<img src="img/bg.png" class="img-md-content img-sm-content mb-3">
+						<p class="mx-5">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</article>
+				<aside class="col col-md-4 col-sm-12">
+					<div id="carouselExampleControls" class="carousel slide card" data-bs-ride="carousel">
+						<div class="carousel-inner p-3 text-center">
+							<div class="carousel-item active">
+									<img src="img/bg.png">
+									<div class="content p-3">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</div>
+							</div>
+							<div class="carousel-item">
+									<img src="img/bg.png">
+									<div class="content p-3">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</div>
+							</div>
+							<div class="carousel-item">
+									<img src="img/bg.png">
+									<div class="content p-3">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</aside>
+				<div class="col col-md-8 col-sm-12 text-center mt-5">
+					<h5>Mari uji pengetahuan!</h5>
+					<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdropCobaKuis">Coba Kuis</button>
+				</div>
+
+				<!--Modal coba kuis-->
+				<div class="modal fade" id="staticBackdropCobaKuis" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="staticBackdropLabel">Kuis Pengetahuan</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<form action="" method="POST">
+										
+											<label for="soal" class="form-label">
+												Manakah jawaban yang benar?
+											</label>
+											<br>
+											<input type="radio" name="opsiSatu" class="form-check-input" placeholder="Masukkan opsi 1">								
+											<label for="opsiSatu" class="form-label">
+												Opsi 1
+											</label>
+											<input type="radio" name="opsiDua" class="form-check-input" placeholder="Masukkan opsi 2">
+											<label for="opsiDua" class="form-label">
+												Opsi 2
+											</label>
+											<input type="radio" name="opsiTiga" class="form-check-input" placeholder="Masukkan opsi 3">
+											<label for="opsiTiga" class="form-label">
+												Opsi 3
+											</label>
+											<br>
+											<label for="jawaban" class="form-label">
+												Jawaban: Opsi 1
+											</label>
+											<br>						
+											<label for="alasan" class="form-label">Alasan</label>
+											<textarea type="text" id="alasan" class="form-control" name="alasan" rows="5">
+											</textarea>
+										
+										<div class="d-flex justify-content-end mt-3">
+											<button class="btn btn-secondary me-2" type="reset">Batal</button>
+											<a href="mapel-admin.html" class="btn btn-success" id="button-login" name="login">Periksa</a>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</main>
+		
+		<a href="submateri.html" role="button" class="container-fluid bi bi-arrow-left-circle-fill" id="back">
+		</a>
+		<footer class="text-center">
+			Copyright&copy;2022 | Siswa Indonesia
+		</footer>
+
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
