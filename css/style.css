@@ -116,12 +116,6 @@ footer {
 p {
 	text-align: justify;
 }
-.float-start {
-	width: 75%;
-}
-.float-end {
-	width: 25%;
-}
 aside img {
 	display: block;
 	width: 200px;
@@ -155,19 +149,18 @@ aside img {
 }
 /************extra small************/
 @media (max-width: 575px) {
-  	.col-xs-12 {
+  	.col-xs-6 {
 	    flex: 0 0 auto;
-	    width: 100%;
-	    padding: 0 2rem;
+	    width: 50%;
+  	}
+  	.col-xs-12 {
+  		flex: 0 0 auto;
+  		width: 100%;
   	}
   	.display-xs {
   		display: none;
   	}
-  	.float-start {
-  		width: 100%;
-  	}
-  	.float-end {
-  		width: 100%;
-  	}
-  	
+/*  	.p-xs {
+  		padding: 3rem;
+  	}*/
 }
